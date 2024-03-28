@@ -1,4 +1,6 @@
 #include "monty.h"
+#define  _POSIX_C_SOURCE 200809L
+
 stack_t *head = NULL;
 
 /**
